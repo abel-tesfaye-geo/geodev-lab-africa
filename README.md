@@ -16,7 +16,6 @@ Month 1 result
 
 I asked how many of Bahir Dar's small settlements sit close to the city's two main built-up areas, since these are the places where the city edge is closest to its neighbours.
 
-Show Image
 
 Study area: Bahir Dar city, about 213 km².
 The GRID3 settlement layer has 317 polygons: 2 large built-up areas (about 78.7 km², roughly 37% of the city) and 315 smaller settlements (hamlets and small settlement areas).
@@ -37,21 +36,5 @@ Settlement extents (317 polygons after clipping)	GRID3 Ethiopia Settlement Exten
 Bahir Dar city boundary (1 polygon, about 213 km²)	City limit polygon from my own working data
 
 The data files are large, so they are not stored in this repository. data-notes.md describes each layer, and the link above shows where to get the GRID3 data.
-
-Repository contents
-File	What it is
-README.md	This overview
-project-brief.md	The question, the data needed and where each dataset comes from
-data-notes.md	Description of every layer: source, features, columns, geometry, gaps, CRS
-month-1-summary.md	The Month 1 write-up
-month-1-map.png	The Month 1 map
-Limitations
-The GRID3 layer is a snapshot dated 2024. It shows where things are now, not how the city changed over time, so this month's result does not yet measure growth since 2015.
-A settlement is counted if any part of it touches a ring, so some counted settlements extend outside it.
-Building counts and areas are not recalculated when a polygon is clipped, so they are too high for polygons cut by the city boundary. I used polygon geometry for areas instead.
-Next steps
-Get built-up data for 2015 and a recent year (for example the GHSL built-up surface) so I can measure actual growth.
-Repeat the buffer analysis on both years to see whether settlements near the city edge became part of it.
-About
 
 Abel Tesfaye Tsega, Institute of Land Administration, Bahir Dar University, Ethiopia. GitHub: abel-tesfaye-geo
