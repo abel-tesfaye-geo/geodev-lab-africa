@@ -45,6 +45,19 @@ All processing was done in QGIS.
 
 The data files are large, so they are not stored in this repository. `data-notes.md` describes each layer, and the link above shows where to get the GRID3 data.
 
+
+
+## Month 2: development environment and early Python
+
+Week 5: set up Python, VS Code and the terminal. hello.py runs.
+
+
+
+
+
+
+
+
 ## About
 
 Abel Tesfaye Tsega, Institute of Land Administration, Bahir Dar University, Ethiopia.
